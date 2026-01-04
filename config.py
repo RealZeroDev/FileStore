@@ -25,7 +25,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "thezerodev")
 
 # ================== BOT SETTINGS ==================
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/ZeroNetOfficial")
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/ZeroNetBots")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 
 START_PIC = os.environ.get("START_PIC", "https://graph.org/file/b68ad5167c77e15439d44.jpg")
@@ -36,7 +36,7 @@ START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n<blockqu
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ʀᴇʟᴏᴀᴅ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ꜰɪʟᴇ.</b>")
 
 HELP_TXT = "<b>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ-ᴛᴏ-ʟɪɴᴋ ʙᴏᴛ\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├ /start : start bot\n├ /about : about us\n└ /help : help</b>"
-ABOUT_TXT = "<b>◈ Creator: <a href=https://t.me/RealZeroking>ᴢᴇʀᴏ</a>\n◈ Network: <a href=https://t.me/ZeroNetOfficial>ᴢᴇʀᴏ ɴᴇᴛᴡᴏʀᴋ</a></b>"
+ABOUT_TXT = "<b>◈ Creator: <a href=https://t.me/RealZeroking>ᴢᴇʀᴏ</a>\n◈ Network: <a href=https://t.me/ZeroNetHQ>ᴢᴇʀᴏ ɴᴇᴛᴡᴏʀᴋ</a></b>"
 
 CMD_TXT = """<b>» Admin Commands:</b>
 
